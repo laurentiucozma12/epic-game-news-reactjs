@@ -2,5 +2,5 @@
 
 - This repository is for learning purpose.
 - This will be an attempt at learning ReactJS and recreating the frontend interface of my gaming blog [EpicGameNews.com](https://epicgamenews.com/)
-- Fetch the repository and check out [Epic Game News - DrawIo Schema](https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/epic-game-news.drawio) for more information.
+- Pull the repository and check out [Epic Game News - DrawIo Schema](https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/epic-game-news.drawio) for more information.
   - To be able to see DrawIo Schemas, you need [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension which can be found in Visual Studio Extensions page.
