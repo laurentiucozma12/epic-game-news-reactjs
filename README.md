@@ -2,4 +2,4 @@
 
 - This repository is for learning purpose.
 - This will be an attempt at learning ReactJS and recreating the frontend interface of my gaming blog [EpicGameNews.com](https://epicgamenews.com/)
-- Check out [DrawIo schema](https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/epic-game-news.drawio) for more information
+- Fetch the repository and check out [Epic Game News - DrawIo Schema](https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/epic-game-news.drawio) for more information
