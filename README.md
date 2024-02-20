@@ -8,3 +8,12 @@
 ```
 git clone https://github.com/laurentiucozma12/epic-game-news-reactjs.git
 ```
+- To install vite:
+```
+npm install -g vite
+npm install --save-dev vite
+```
+- To start the development server:
+```
+npm run dev
+```
