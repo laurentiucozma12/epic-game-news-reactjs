@@ -12,4 +12,4 @@ git clone https://github.com/laurentiucozma12/epic-game-news-reactjs.git
 npm run dev
 ```
 - Epic Game News - DrawIo Schema
-<img src="" >
+<img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/drawio/epic-game-news.svg" />
