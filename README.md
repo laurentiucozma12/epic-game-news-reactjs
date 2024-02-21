@@ -1,4 +1,4 @@
-# <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/epic-game-news-reactjs/public/logo-epic-game-news-64x64.png" alt="react" width="30" height="30"/> Epic Game News ReactJS <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/>
+# <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/epic-game-news-reactjs/public/logo-epic-game-news-400x400.png" alt="react" width="30" height="30"/> Epic Game News ReactJS <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/>
 
 - This repository is for learning purpose.
 - [React Beginner Course 2024 (Vite, Tailwind CSS, TypeScript)](https://www.youtube.com/watch?v=siTUv1L9ymM)
