@@ -1,7 +1,5 @@
 # <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/app/public/logo-epic-game-news-400x400.png" alt="react" width="30" height="30"/> Epic Game News ReactJS <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/>
 
-- This repository is for learning purpose.
-- [React Beginner Course 2024 (Vite, Tailwind CSS, TypeScript)](https://www.youtube.com/watch?v=siTUv1L9ymM)
 - This will be an attempt at learning ReactJS and recreating the frontend interface of my gaming blog [EpicGameNews.com](https://epicgamenews.com/)  
 - To clone the repository you have to open the terminal ( Ctrl + Shift + ` ) and copy paste this command:
 ```
