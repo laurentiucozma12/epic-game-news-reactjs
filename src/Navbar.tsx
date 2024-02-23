@@ -25,7 +25,7 @@ function Navbar() {
                 <div className="font-bold flex items-center justify-between">
 
                     <a href="/" className="flex ms-2">
-                        <img className="h-7 sm:h-10" src="./public/logo-epic-game-news-64x64.png" alt="epic game news logo" />
+                        <img className="h-7 sm:h-10" src="./logo-epic-game-news-64x64.png" alt="epic game news logo" />
                         <span className="ms-1 text-white hover:text-[#a335ee] duration-700 text-xl sm:text-3xl">Epic Game News</span>
                     </a>
 
