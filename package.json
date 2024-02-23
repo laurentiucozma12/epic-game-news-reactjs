@@ -1,19 +1,15 @@
 {
-  "homepage": "https://laurentiucozma12.github.io/epic-game-news-reactjs/",
   "name": "epic-game-news-reactjs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@heroicons/react": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,7 +23,6 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
