@@ -1,5 +1,14 @@
+import MobileButton from './MobileButton.jsx'
 
 function Navbar() {
+    const pages = [
+        {name: "HOME", route: "/"},
+        {name: "VIDEO GAMES", route: "/video-games"},
+        {name: "CATEGORIES", route: "/categories"},
+        {name: "PLATFORMS", route: "/platforms"},
+        {name: "ABOUT", route: "/about"},
+        {name: "CONTACT", route: "/contact"},
+    ];
 
     return (
         <nav className="shadow-md w-full sticky top-0 left-0">
@@ -11,14 +20,15 @@ function Navbar() {
                     </a>
                     <div className="flex">
                         <input type="search" className="rounded" />
-                        <ul className="flex text-xl">
-                            <li><a href="/" className="text-white p-2">Video Games</a></li>
-                            <li><a href="/" className="text-white p-2">Categories</a></li>
-                            <li><a href="/" className="text-white p-2">Platforms</a></li>
-                            <li><a href="/" className="text-white p-2">About</a></li>
-                            <li><a href="/" className="text-white p-2">Contact</a></li>
+                        <ul className="flex text-base">
+                            {pages.map((page) => (
+                                <li key={page.name}>
+                                    <a href={page.route} className="text-white p-2">{page.name}</a>
+                                </li>
+                            ))}
                         </ul>
                     </div>
+                    <MobileButton/>
                 </div>
             </div>
         </nav>    
