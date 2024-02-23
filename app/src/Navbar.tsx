@@ -1,16 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
+import Searchbar from './Searchbar';
 
 interface Page {
     name: string;
     route: string;
 }
 
-interface NavbarProps {
-    children?: React.ReactNode;
-}
-
-function Navbar(props: NavbarProps) {
+function Navbar() {
     const pages: Page[] = [
         { name: "HOME", route: "/" },
         { name: "VIDEO GAMES", route: "/video-games" },
@@ -24,35 +21,39 @@ function Navbar(props: NavbarProps) {
 
     return (
         <nav className="shadow-md w-full sticky top-0 left-0">
-            <div className="bg-zinc-900 py-2">
-                <div className="font-bold cursor-pointer flex items-center justify-between">
+            <div className="bg-[#101110] py-2">
+                <div className="font-bold flex items-center justify-between">
 
-                    <a href="/" className="flex">
-                        <img className="w-10 h-10" src="./public/logo-epic-game-news-64x64.png" alt="epic game news logo" />
-                        <span className="ms-1 text-white text-3xl">Epic Game News</span>
+                    <a href="/" className="flex ms-2">
+                        <img className="h-7 sm:h-10" src="./public/logo-epic-game-news-64x64.png" alt="epic game news logo" />
+                        <span className="ms-1 text-white hover:text-[#0EF1FF] duration-700 text-xl sm:text-3xl">Epic Game News</span>
                     </a>
 
-                    <button onClick={() => setIsOpen(!isOpen)} className="p-2 block lg:hidden absolute right-2 top-2 cursor-pointer">
+                    <button onClick={() => setIsOpen(!isOpen)} className="p-2 block lg:hidden absolute right-0 top-0.5 sm:top-2 cursor-pointer">
                         {
                             isOpen ?    <XMarkIcon className="h-7 text-white lg:none" /> :
                                         <Bars3Icon className="h-7 text-white lg:none" />
                         }
-
-                        {props.children}
                     </button>
 
-                    <div className="">
-                        {/* <input type="search" className="rounded w-40" /> */}
-                        <ul className = {`  
+                    <div className="flex">
+                        <div className='hidden lg:block mr-2'>
+                            <Searchbar/>
+                        </div>
+                        <ul className = {`
                                             text-base block lg:flex
-                                            absolute bg-zinc-900 lg:static lg:items-center lg:z-auto z-[-1] left-0 w-full lg:w-auto transition-all duration-500 ease-in
-                                            ${isOpen ? 'top-19' : 'top-[-490px]'}
+                                            absolute bg-[#161616] lg:bg-transparent lg:static lg:items-center lg:z-auto z-[-1] left-0 w-full lg:w-auto transition-all duration-500 ease-in
+                                            ${isOpen ? 'top-[44px] sm:top-[56px]' : 'top-[-490px]'}
                                         `}>
                             {pages.map((page) => (
-                                <li key={page.name} className='lg:my-0 my-7 text-center'>
-                                    <a href={page.route} className="text-white p-2">{page.name}</a>
+                                <li key={page.name} className='lg:my-0 text-center py-4 lg:py-0 duration-700 hover:bg-[#202020] lg:hover:bg-transparent'>
+                                    <a href={page.route} className="text-white hover:text-[#0EF1FF] duration-700 py-4 px-14 sm:px-60 md:px-80 lg:px-2">{page.name}</a>
                                 </li>
                             ))}
+                            
+                            <div className='flex justify-center lg:hidden my-4'>
+                                <Searchbar/>
+                            </div>
                         </ul>
                     </div>
 
