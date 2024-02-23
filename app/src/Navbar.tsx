@@ -26,7 +26,7 @@ function Navbar() {
 
                     <a href="/" className="flex ms-2">
                         <img className="h-7 sm:h-10" src="./public/logo-epic-game-news-64x64.png" alt="epic game news logo" />
-                        <span className="ms-1 text-white hover:text-[#0EF1FF] duration-700 text-xl sm:text-3xl">Epic Game News</span>
+                        <span className="ms-1 text-white hover:text-[#a335ee] duration-700 text-xl sm:text-3xl">Epic Game News</span>
                     </a>
 
                     <button onClick={() => setIsOpen(!isOpen)} className="p-2 block lg:hidden absolute right-0 top-0.5 sm:top-2 cursor-pointer">
@@ -47,7 +47,7 @@ function Navbar() {
                                         `}>
                             {pages.map((page) => (
                                 <li key={page.name} className='lg:my-0 text-center py-4 lg:py-0 duration-700 hover:bg-[#202020] lg:hover:bg-transparent'>
-                                    <a href={page.route} className="text-white hover:text-[#0EF1FF] duration-700 py-4 px-14 sm:px-60 md:px-80 lg:px-2">{page.name}</a>
+                                    <a href={page.route} className="text-white hover:text-[#a335ee] duration-700 py-4 px-14 sm:px-60 md:px-80 lg:px-2">{page.name}</a>
                                 </li>
                             ))}
                             
