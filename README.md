@@ -12,3 +12,7 @@ npm run dev
 - Epic Game News - DrawIo Schema
   - In Visual Studio to be able to see DrawIo Schemas, you need [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension which can be found in Visual Studio Extensions page.
 <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/drawio/epic-game-news.svg" />
+- Icons used [Heroicons](https://github.com/tailwindlabs/heroicons?tab=readme-ov-file#react)
+```
+npm install @heroicons/react
+```
