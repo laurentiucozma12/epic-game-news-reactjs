@@ -26,14 +26,14 @@ function Navbar() {
                     <div className="font-bold flex items-center justify-between">
 
                         {/* Mobile Menu */}
-                        <button onClick={() => setIsOpen(!isOpen)} className="p-2 block lg:hidden absolute right-0 top-0.5 sm:top-2 cursor-pointer">
+                        <button onClick={() => setIsOpen(!isOpen)} className="mr-4 p-1 block lg:hidden absolute right-0 top-0.5 sm:top-2 cursor-pointer">
                             {
-                                isOpen ?    <XMarkIcon className="h-7 text-white lg:none" /> :
-                                            <Bars3Icon className="h-7 text-white lg:none" />
+                                isOpen ?    <XMarkIcon className="h-8 text-white hover:text-[#a335ee] duration-700 lg:none" /> :
+                                            <Bars3Icon className="h-8 text-white hover:text-[#a335ee] duration-700 lg:none" />
                             }
                         </button>
                         
-                        <a href="/" className="flex ms-2">
+                        <a href="/" className="flex">
                             <img className="h-7 sm:h-10" src="./logo-epic-game-news-64x64.png" alt="epic game news logo" />
                             <span className="ms-1 text-white hover:text-[#a335ee] duration-700 text-xl sm:text-3xl">Epic Game News</span>
                         </a>
