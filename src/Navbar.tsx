@@ -20,8 +20,8 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
-        <nav className="shadow-md sticky top-0 left-0 bg-[#101110] ">
-            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <nav className="fixed shadow-md top-0 left-0 w-full bg-[#101110]">
+            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-0 bg-[#101110]">
                 <div className="py-2">
                     <div className="font-bold flex items-center justify-between">
 

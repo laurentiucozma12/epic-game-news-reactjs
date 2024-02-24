@@ -1,7 +1,7 @@
 
 function Content() {
     return (
-        <main>
+        <main className="max-w-7xl mt-14 m-auto px-4 lg:px-0">
             <p>
                 content from Main tag
             </p> 
