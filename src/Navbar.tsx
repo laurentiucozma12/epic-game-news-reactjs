@@ -38,7 +38,6 @@ function Navbar() {
                             <span className="ms-1 text-white hover:text-[#a335ee] duration-700 text-xl sm:text-3xl">Epic Game News</span>
                         </a>
 
-
                         <div className="flex">
                             <div className='hidden lg:block mr-2'>
                                 <Searchbar/>
