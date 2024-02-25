@@ -4,7 +4,7 @@ import imgHome from '../assets/images/img-home.jpg';
 function HeroSection() {
   return (
     <div
-      className="flex h-[calc(100vh-20px)] w-full flex-col items-center object-contain"
+      className="flex h-screen w-full flex-col items-center object-contain"
       style={{
         background: `url(${imgHome}) center center/cover no-repeat`,
       }}
