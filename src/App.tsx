@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import VideoGames from './pages/VideoGames';
-import Categories from './pages/Categories';
-import Platforms from './pages/Platforms';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import NoPage from './pages/NoPage';
+import { Navigate } from 'react-router-dom';
+import Home from './components/pages/Home';
+import VideoGames from './components/pages/VideoGames';
+import Categories from './components/pages/Categories';
+import Platforms from './components/pages/Platforms';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import NoPage from './components/pages/NoPage';
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/epic-game-news-reactjs/" element={<Home />} />
+          <Route
+            path="/epic-game-news-reactjs/*"
+            element={<Navigate to="/home" />}
+          />
           <Route path="/video-games" element={<VideoGames />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/platforms" element={<Platforms />} />

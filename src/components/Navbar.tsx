@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import Searchbar from './Searchbar';
 import { Link } from 'react-router-dom';
-import logo from '/logo-epic-game-news-64x64.png';
+import logo from '../assets/images/logo/logo-epic-game-news-64x64.png';
 
 interface Page {
   name: string;
