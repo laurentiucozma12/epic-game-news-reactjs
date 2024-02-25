@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply font-Rubik;
-    }
+  body {
+    @apply font-Rubik;
+  }
 }
 
 #root {
-    min-height: 100dvh;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: #171617;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #171617;
 }
 
 main {
-    flex: 1 1 0%; 
+  flex: 1 1 0%;
 }
