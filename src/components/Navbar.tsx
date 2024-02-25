@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import Searchbar from './Searchbar';
+import { Link } from 'react-router-dom';
+import logo from '/logo-epic-game-news-64x64.png';
 
 interface Page {
   name: string;
@@ -9,7 +11,7 @@ interface Page {
 
 function Navbar() {
   const pages: Page[] = [
-    { name: 'HOME', route: '/' },
+    { name: 'HOME', route: '/home' },
     { name: 'VIDEO GAMES', route: '/video-games' },
     { name: 'CATEGORIES', route: '/categories' },
     { name: 'PLATFORMS', route: '/platforms' },
@@ -24,6 +26,17 @@ function Navbar() {
       <div className="mx-auto max-w-7xl bg-[#101110] px-6 lg:px-4 2xl:px-0">
         <div className="py-2">
           <div className="flex items-center font-bold sm:justify-center xl:justify-between">
+            {/* Link to Home Page */}
+            <Link to="/" className="flex">
+              <img
+                className="h-6 sm:h-10"
+                src={logo}
+                alt="epic game news logo"
+              />
+              <span className="ms-1 text-[#a335ee] duration-700 hover:text-[#b545ff] sm:mt-0.5 sm:text-3xl">
+                Epic Game News
+              </span>
+            </Link>
             {/* Mobile Menu */}
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -35,17 +48,9 @@ function Navbar() {
                 <Bars3Icon className="xl:none h-7 text-white duration-700 hover:text-[#b545ff] sm:h-8" />
               )}
             </button>
-            <a href="/" className="flex">
-              <img
-                className="h-6 sm:h-10"
-                src="./logo-epic-game-news-64x64.png"
-                alt="epic game news logo"
-              />
-              <span className="ms-1 text-[#a335ee] duration-700 hover:text-[#b545ff] sm:mt-0.5 sm:text-3xl">
-                Epic Game News
-              </span>
-            </a>
+            {/* Menu */}
             <div className="flex">
+              {/* Searchbar for xl screens */}
               <div className="mr-2 mt-0.5 hidden xl:block">
                 <Searchbar />
               </div>
@@ -63,17 +68,18 @@ function Navbar() {
                                 sm:py-4
                                 xl:my-0 xl:py-0 xl:hover:bg-transparent"
                   >
-                    <a
-                      href={page.route}
+                    <Link
+                      to={page.route}
                       className=" px-14 py-1 text-white duration-700 hover:text-[#b545ff]
                                   sm:px-60 sm:py-4 sm:text-xl
                                   md:px-80
                                   xl:px-2 xl:text-lg"
                     >
                       {page.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
+                {/* Searchbar for smaller screens */}
                 <div className="my-2 flex justify-center sm:my-4 xl:hidden">
                   <Searchbar />
                 </div>

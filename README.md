@@ -25,5 +25,9 @@ npm install @heroicons/react
   - In Visual Studio to be able to see DrawIo Schemas, you need [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension which can be found in Visual Studio Extensions page.
     <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/drawio/epic-game-news.svg" />
 
+## Resources
+
 - Format code [Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 - Format code [Vite React App with EsLint & Prettier in VSCode](https://www.youtube.com/watch?v=SMbqi1HPprc)
+- [React Website Tutorial - Beginner React JS Project Fully Responsive](https://www.youtube.com/watch?v=I2UBjN5ER4s)
+- [Routing](https://www.youtube.com/watch?v=TWz4TjSssbg)
