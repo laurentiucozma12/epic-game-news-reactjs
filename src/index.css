@@ -19,3 +19,14 @@
 main {
   flex: 1 1 0%;
 }
+
+.text-border {
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 30);
+  -webkit-background-clip: text;
+}
+
+.text-border:hover {
+  -webkit-text-stroke-color: yellow;
+}

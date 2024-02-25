@@ -30,9 +30,9 @@ function Navbar() {
               className="absolute right-0 top-0.5 mr-4 block cursor-pointer p-1 sm:top-2 xl:hidden"
             >
               {isOpen ? (
-                <XMarkIcon className="xl:none h-7 text-white duration-700 hover:text-[#a335ee] sm:h-8" />
+                <XMarkIcon className="xl:none h-7 text-white duration-700 hover:text-[#b545ff] sm:h-8" />
               ) : (
-                <Bars3Icon className="xl:none h-7 text-white duration-700 hover:text-[#a335ee] sm:h-8" />
+                <Bars3Icon className="xl:none h-7 text-white duration-700 hover:text-[#b545ff] sm:h-8" />
               )}
             </button>
             <a href="/" className="flex">
@@ -41,10 +41,7 @@ function Navbar() {
                 src="./logo-epic-game-news-64x64.png"
                 alt="epic game news logo"
               />
-              <span
-                className="   ms-1 text-white duration-700 hover:text-[#a335ee]
-                                                sm:mt-0.5 sm:text-3xl"
-              >
+              <span className="ms-1 text-[#a335ee] duration-700 hover:text-[#b545ff] sm:mt-0.5 sm:text-3xl">
                 Epic Game News
               </span>
             </a>
@@ -54,24 +51,24 @@ function Navbar() {
               </div>
               <ul
                 className={`
-                                                absolute left-0 z-[-1] block w-full bg-[#161616] text-base transition-all duration-500 ease-in
-                                                xl:static xl:z-auto xl:flex xl:bg-transparent
-                                                ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
-                                            `}
+                            absolute left-0 z-[-1] block w-full bg-[#161616] text-base transition-all duration-500 ease-in
+                            xl:static xl:z-auto xl:flex xl:bg-transparent
+                            ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
+                          `}
               >
                 {pages.map((page) => (
                   <li
                     key={page.name}
                     className=" py-1 text-center duration-700 hover:bg-[#202020]
-                                                                    sm:py-4
-                                                                    xl:my-0 xl:py-0 xl:hover:bg-transparent"
+                                sm:py-4
+                                xl:my-0 xl:py-0 xl:hover:bg-transparent"
                   >
                     <a
                       href={page.route}
-                      className="px-14 py-1 text-white duration-700 hover:text-[#a335ee]
-                                                                        sm:px-60 sm:py-4 sm:text-xl
-                                                                        md:px-80
-                                                                        xl:px-2 xl:text-lg"
+                      className=" px-14 py-1 text-white duration-700 hover:text-[#b545ff]
+                                  sm:px-60 sm:py-4 sm:text-xl
+                                  md:px-80
+                                  xl:px-2 xl:text-lg"
                     >
                       {page.name}
                     </a>
