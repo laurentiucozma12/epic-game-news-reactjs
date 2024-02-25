@@ -23,11 +23,11 @@ function Navbar() {
 
   return (
     <nav
-      className=" fixed left-0 top-0 w-full bg-transparent shadow-md 
+      className="fixed left-0 top-0 z-50 w-full bg-transparent shadow-md 
                 xl:bg-[#0f100fe6]"
     >
       <div
-        className=" mx-auto max-w-7xl bg-[#0f100fe6] px-6
+        className=" z-10 mx-auto max-w-7xl bg-[#0f100fe6] px-6 
                     lg:px-4 
                     xl:bg-transparent
                     2xl:px-0"
@@ -72,16 +72,15 @@ function Navbar() {
                 {pages.map((page, index) => (
                   <li
                     key={page.name}
-                    className=" py-1 text-center duration-700 hover:bg-[#212121cc]
-                                sm:py-4
-                                xl:my-0 xl:py-0"
+                    className=" py-1 text-center duration-700 hover:bg-[#212121cc] sm:py-4
+                                xl:my-0
+                                xl:py-0 xl:pt-0.5 xl:hover:bg-transparent"
                   >
                     <Link
                       to={page.route}
-                      className={` px-14 py-1 text-white duration-700 hover:text-[#b545ff]
-                                  sm:px-60 sm:py-4 sm:text-xl
-                                  md:px-80
-                                  xl:px-4 xl:text-base ${index === pages.length - 1 ? 'xl:pe-0' : ''}`}
+                      className={`px-14 py-1 text-white duration-700 hover:text-[#b545ff] sm:px-60
+                                  sm:py-[18px] sm:text-xl md:px-80
+                                  xl:px-4 xl:text-base xl:hover:bg-[#212121cc] ${index === pages.length - 1 ? 'xl:pe-0' : ''}`}
                     >
                       {page.name}
                     </Link>
