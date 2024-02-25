@@ -34,30 +34,33 @@ function Navbar() {
                         </button>
                         <a href="/" className="flex">
                             <img className="h-6 sm:h-10" src="./logo-epic-game-news-64x64.png" alt="epic game news logo" />
-                            <span className="ms-1 text-white hover:text-[#a335ee] duration-700 
-                            font-Rubik text-base sm:text-3xl">Epic Game News</span>
+                            <span className="   ms-1 text-white hover:text-[#a335ee] duration-700
+                                                sm:mt-0.5 sm:text-3xl">Epic Game News</span>
                         </a>
                         <div className="flex">
-                            <div className='hidden xl:block mr-2'>
+                            <div className='hidden mr-2 mt-0.5 xl:block'>
                                 <Searchbar/>
                             </div>
                             <ul className = {`
-                                                text-base block xl:flex
-                                                absolute bg-[#161616] xl:bg-transparent xl:static xl:items-center xl:z-auto z-[-1] left-0 w-full xl:w-auto transition-all duration-500 ease-in
+                                                text-base block absolute bg-[#161616] z-[-1] left-0 w-full transition-all duration-500 ease-in
+                                                xl:flex xl:static xl:bg-transparent xl:z-auto
                                                 ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
                                             `}>
                                 {pages.map((page) => (
-                                    <li key={page.name} className='text-center xl:my-0 py-1 sm:py-4 xl:py-0 duration-700 hover:bg-[#202020] xl:hover:bg-transparent'>
-                                        <a href={page.route} className="font-Rubik text-sm sm:text-xl text-white hover:text-[#a335ee] duration-700 py-4 px-14 sm:px-60 md:px-80 xl:px-2">{page.name}</a>
+                                    <li key={page.name} className=' py-1 text-center hover:bg-[#202020] duration-700
+                                                                    sm:py-4
+                                                                    xl:my-0 xl:py-0 xl:hover:bg-transparent'>
+                                        <a href={page.route} className="py-1 px-14 text-white hover:text-[#a335ee] duration-700
+                                                                        sm:py-4 sm:px-60 sm:text-xl
+                                                                        md:px-80
+                                                                        xl:text-lg xl:px-2">{page.name}</a>
                                     </li>
                                 ))}
-                                
-                                <div className='flex justify-center xl:hidden my-4'>
+                                <div className='flex justify-center my-2 sm:my-4 xl:hidden'>
                                     <Searchbar/>
                                 </div>
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </div>
