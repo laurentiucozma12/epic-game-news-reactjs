@@ -10,21 +10,19 @@ import NoPage from './pages/NoPage';
 function App() {
   return (
     <>
-      <div>
-        <BrowserRouter>
-          <Routes>
-            <Route index element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/epic-game-news-reactjs/" element={<Home />} />
-            <Route path="/video-games" element={<VideoGames />} />
-            <Route path="/categories" element={<Categories />} />
-            <Route path="/platforms" element={<Platforms />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NoPage />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/epic-game-news-reactjs/" element={<Home />} />
+          <Route path="/video-games" element={<VideoGames />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/platforms" element={<Platforms />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
