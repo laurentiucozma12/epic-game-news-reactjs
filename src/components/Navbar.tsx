@@ -43,9 +43,9 @@ function Navbar() {
               className="absolute right-0 top-0.5 mr-4 block cursor-pointer p-1 sm:top-2 xl:hidden"
             >
               {isOpen ? (
-                <XMarkIcon className="xl:none h-7 text-white duration-700 hover:text-[#b545ff] sm:h-8" />
+                <XMarkIcon className="xl:none h-7 text-[#a335ee] duration-700 hover:text-[#b545ff] sm:h-8" />
               ) : (
-                <Bars3Icon className="xl:none h-7 text-white duration-700 hover:text-[#b545ff] sm:h-8" />
+                <Bars3Icon className="xl:none h-7 text-[#a335ee] duration-700 hover:text-[#b545ff] sm:h-8" />
               )}
             </button>
             {/* Menu */}
@@ -61,19 +61,19 @@ function Navbar() {
                             ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
                           `}
               >
-                {pages.map((page) => (
+                {pages.map((page, index) => (
                   <li
                     key={page.name}
-                    className=" py-1 text-center duration-700 hover:bg-[#202020]
+                    className=" py-1 text-center duration-700
                                 sm:py-4
-                                xl:my-0 xl:py-0 xl:hover:bg-transparent"
+                                xl:my-0 xl:py-0"
                   >
                     <Link
                       to={page.route}
-                      className=" px-14 py-1 text-white duration-700 hover:text-[#b545ff]
+                      className={` px-14 py-1 text-white duration-700 hover:bg-[#202020] hover:text-[#b545ff]
                                   sm:px-60 sm:py-4 sm:text-xl
                                   md:px-80
-                                  xl:px-2 xl:text-lg"
+                                  xl:px-4 xl:text-base ${index === pages.length - 1 ? 'xl:pe-0' : ''}`}
                     >
                       {page.name}
                     </Link>
