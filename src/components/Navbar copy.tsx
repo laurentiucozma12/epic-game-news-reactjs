@@ -24,7 +24,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > window.innerHeight / 1.75) {
+      if (window.scrollY > window.innerHeight) {
         setNavbarBackground('solid');
       } else {
         setNavbarBackground('transparent');
@@ -39,10 +39,10 @@ function Navbar() {
 
   return (
     <nav
-      className={`fixed left-0 top-0 z-50 w-full shadow-md ${navbarBackground === 'transparent' ? 'bg-transparent duration-0 xl:bg-[#0f100fe6]' : 'bg-[#101110] duration-0'}`}
+      className={`fixed left-0 top-0 z-50 w-full shadow-md ${navbarBackground === 'transparent' ? 'bg-transparent xl:bg-[#0f100fe6]' : 'bg-[#101110]'}`}
     >
       <div
-        className={`${navbarBackground === 'transparent' ? 'bg-[#0f100fe6] duration-0' : 'bg-[#101110] duration-0'} z-10 mx-auto max-w-7xl px-6 
+        className={`${navbarBackground === 'transparent' ? 'bg-[#0f100fe6]' : 'bg-[#101110]'} z-10 mx-auto max-w-7xl px-6 
                     lg:px-4 
                     xl:bg-transparent
                     2xl:px-0`}
@@ -79,9 +79,7 @@ function Navbar() {
               </div>
               <ul
                 className={`
-                            absolute left-0 z-[-1] block w-full
-                            ${navbarBackground === 'transparent' ? 'bg-[#171717e6] duration-0' : 'bg-[#161616] duration-0'}
-                            text-base transition-all duration-500 ease-in
+                            absolute left-0 z-[-1] block w-full bg-[#171717e6] text-base transition-all duration-500 ease-in
                             xl:static xl:z-auto xl:flex xl:bg-transparent
                             ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
                           `}
