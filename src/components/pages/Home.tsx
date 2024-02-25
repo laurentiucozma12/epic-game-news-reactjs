@@ -7,7 +7,11 @@ function Home() {
     <>
       <Header />
       <HeroSection />
-      <main className="mx-auto mt-10 max-w-7xl px-6 sm:mt-14 lg:px-4 2xl:px-0">
+      <main
+        className=" mx-auto max-w-7xl px-6 
+                    lg:px-4 
+                    2xl:px-0"
+      >
         <h2>Home Page</h2>
         <p>
           Content from Home Page. Lorem ipsum dolor sit, amet consectetur

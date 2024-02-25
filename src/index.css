@@ -29,4 +29,8 @@ main {
 
 .text-border:hover {
   -webkit-text-stroke-color: yellow;
+  color: #0f100fe6;
+  color: #0f100fcc;
+  color: #171717e6;
+  color: #21212199;
 }

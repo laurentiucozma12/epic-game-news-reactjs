@@ -22,8 +22,16 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <nav className="fixed left-0 top-0 w-full bg-[#101110] shadow-md">
-      <div className="mx-auto max-w-7xl bg-[#101110] px-6 lg:px-4 2xl:px-0">
+    <nav
+      className=" fixed left-0 top-0 w-full bg-transparent shadow-md 
+                xl:bg-[#0f100fe6]"
+    >
+      <div
+        className=" mx-auto max-w-7xl bg-[#0f100fe6] px-6
+                    lg:px-4 
+                    xl:bg-transparent
+                    2xl:px-0"
+      >
         <div className="py-2">
           <div className="flex items-center font-bold sm:justify-center xl:justify-between">
             {/* Link to Home Page */}
@@ -56,7 +64,7 @@ function Navbar() {
               </div>
               <ul
                 className={`
-                            absolute left-0 z-[-1] block w-full bg-[#161616] text-base transition-all duration-500 ease-in
+                            absolute left-0 z-[-1] block w-full bg-[#171717e6] text-base transition-all duration-500 ease-in
                             xl:static xl:z-auto xl:flex xl:bg-transparent
                             ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
                           `}
@@ -64,13 +72,13 @@ function Navbar() {
                 {pages.map((page, index) => (
                   <li
                     key={page.name}
-                    className=" py-1 text-center duration-700
+                    className=" py-1 text-center duration-700 hover:bg-[#212121cc]
                                 sm:py-4
                                 xl:my-0 xl:py-0"
                   >
                     <Link
                       to={page.route}
-                      className={` px-14 py-1 text-white duration-700 hover:bg-[#202020] hover:text-[#b545ff]
+                      className={` px-14 py-1 text-white duration-700 hover:text-[#b545ff]
                                   sm:px-60 sm:py-4 sm:text-xl
                                   md:px-80
                                   xl:px-4 xl:text-base ${index === pages.length - 1 ? 'xl:pe-0' : ''}`}
