@@ -2,7 +2,8 @@
 
 - Deployed [Still in Progress] [Epic Game News ReactJS](https://laurentiucozma12.github.io/epic-game-news-reactjs/)
 - This will be an attempt at learning ReactJS and recreating the frontend interface of my gaming blog [EpicGameNews.com](https://epicgamenews.com/)
-- To clone the repository you have to open the terminal ( Ctrl + Shift + ` ) and copy paste this command:
+
+# To clone the repository you have to open the terminal ( Ctrl + Shift + ` ) and copy paste this command:
 
 ```
 git clone https://github.com/laurentiucozma12/epic-game-news-reactjs.git
