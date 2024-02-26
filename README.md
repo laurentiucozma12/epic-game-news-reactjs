@@ -14,6 +14,14 @@ git clone https://github.com/laurentiucozma12/epic-game-news-reactjs.git
 npm run dev
 ```
 
+## Install packages:
+
+- Vite
+
+```
+npm install vite --save-dev
+```
+
 - Icons used [Heroicons](https://github.com/tailwindlabs/heroicons?tab=readme-ov-file#react)
 
 ```
@@ -32,3 +40,7 @@ npm install @heroicons/react
 - [React Website Tutorial - Beginner React JS Project Fully Responsive](https://www.youtube.com/watch?v=I2UBjN5ER4s)
 - [Routing](https://www.youtube.com/watch?v=TWz4TjSssbg)
 - [How to Create a Video Background Component in React JS - With a Background Overlay](https://www.youtube.com/watch?v=LSRNmhLS76o)
+
+```
+
+```
