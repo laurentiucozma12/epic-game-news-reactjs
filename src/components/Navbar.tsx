@@ -24,10 +24,20 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > window.innerHeight / 2.5) {
-        setNavbarBackground('solid');
+      // Bigger Screens
+      if (window.innerWidth >= 1280) {
+        if (window.scrollY > window.innerHeight / 4.5) {
+          setNavbarBackground('solid');
+        } else {
+          setNavbarBackground('transparent');
+        }
       } else {
-        setNavbarBackground('transparent');
+        // Mobile & Tablet Screens
+        if (window.scrollY > 0) {
+          setNavbarBackground('solid');
+        } else {
+          setNavbarBackground('transparent');
+        }
       }
     };
 
@@ -79,9 +89,9 @@ function Navbar() {
               </div>
               <ul
                 className={`
-                            absolute left-0 z-[-1] block w-full
+                            absolute left-0 z-[-1] block w-full text-base transition-all ease-in
                             ${navbarBackground === 'transparent' ? 'bg-[#171717e6] duration-0' : 'bg-[#161616] duration-0'}
-                            text-base transition-all duration-500 ease-in
+                            sm:duration-500
                             xl:static xl:z-auto xl:flex xl:bg-transparent
                             ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
                           `}

@@ -13,7 +13,7 @@ function Anchor(props: React.PropsWithChildren<AnchorProps>) {
     <Link
       to={props.to}
       className={twMerge(
-        `block cursor-pointer rounded-md border-none bg-blue-400 px-4 py-3 text-center outline-none`,
+        `block rounded-lg bg-gray-700 px-4 py-3 text-center duration-700`,
         props.className,
       )}
     >
