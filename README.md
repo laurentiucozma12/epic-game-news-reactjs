@@ -2,16 +2,30 @@
 
 - Deployed [Still in Progress] [Epic Game News ReactJS](https://laurentiucozma12.github.io/epic-game-news-reactjs/)
 - This will be an attempt at learning ReactJS and recreating the frontend interface of my gaming blog [EpicGameNews.com](https://epicgamenews.com/)
-- To clone the repository you have to open the terminal ( Ctrl + Shift + ` ) and copy paste this command:
+
+# To clone the repository you have to open the terminal ( Ctrl + Shift + ` ) and copy paste this command:
 
 ```
 git clone https://github.com/laurentiucozma12/epic-game-news-reactjs.git
 ```
 
-- To start the development server:
+## To start the development server:
 
 ```
 npm run dev
+```
+
+## Epic Game News - DrawIo Schema
+
+- In Visual Studio to be able to see DrawIo Schemas, you need [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension which can be found in Visual Studio Extensions page.
+  <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/drawio/epic-game-news.svg" />
+
+## Install packages:
+
+- Vite
+
+```
+npm install vite --save-dev
 ```
 
 - Icons used [Heroicons](https://github.com/tailwindlabs/heroicons?tab=readme-ov-file#react)
@@ -19,11 +33,6 @@ npm run dev
 ```
 npm install @heroicons/react
 ```
-
-- Epic Game News - DrawIo Schema
-
-  - In Visual Studio to be able to see DrawIo Schemas, you need [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension which can be found in Visual Studio Extensions page.
-    <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/master/drawio/epic-game-news.svg" />
 
 ## Resources
 
