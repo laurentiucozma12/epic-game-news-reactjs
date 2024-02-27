@@ -11,7 +11,7 @@ interface Page {
 
 function Navbar() {
   const pages: Page[] = [
-    { name: 'HOME', route: '/home' },
+    { name: 'HOME', route: '/' },
     { name: 'VIDEO GAMES', route: '/video-games' },
     { name: 'CATEGORIES', route: '/categories' },
     { name: 'PLATFORMS', route: '/platforms' },
@@ -24,7 +24,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > window.innerHeight / 1.75) {
+      if (window.scrollY > window.innerHeight / 2.5) {
         setNavbarBackground('solid');
       } else {
         setNavbarBackground('transparent');

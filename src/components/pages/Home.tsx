@@ -12,14 +12,10 @@ function Home() {
                     lg:px-4 
                     2xl:px-0"
       >
-        <h2>Home Page</h2>
         <p>
-          Content from Home Page. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
-          voluptate labore sequi dolor qui est? Officia earum nostrum delectus
-          error repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit,
-          amet consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates,
-          at dolore voluptate labore sequi dolor qui est? Officia earum nostrum
+          Home Page Content from Home Page. Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
+          dolore voluptate labore sequi dolor qui est? Officia earum nostrum
           delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
           dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam, sunt
           voluptates, at dolore voluptate labore sequi dolor qui est? Officia
@@ -49,7 +45,10 @@ function Home() {
           Tempora, omnis molestias. Lorem ipsum dolor sit, amet consectetur
           adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
           voluptate labore sequi dolor qui est? Officia earum nostrum delectus
-          error repudiandae. Tempora, omnis molestias.
+          error repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit,
+          amet consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates,
+          at dolore voluptate labore sequi dolor qui est? Officia earum nostrum
+          delectus error repudiandae. Tempora, omnis molestias.
         </p>
         <p>
           Content from Home Page. Lorem ipsum dolor sit, amet consectetur
