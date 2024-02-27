@@ -14,10 +14,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/home" element={<Navigate to="/" />} />
           <Route
             path="/epic-game-news-reactjs/*"
-            element={<Navigate to="/home" />}
+            element={<Navigate to="/" />}
           />
           <Route path="/video-games" element={<VideoGames />} />
           <Route path="/categories" element={<Categories />} />

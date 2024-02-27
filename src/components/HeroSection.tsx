@@ -26,13 +26,13 @@ function HeroSection() {
         </p>
         <div className="flex">
           <Anchor
-            to="/home"
+            to="#news"
             name={'News'}
             className=" mr-2 w-[95px] border-4 border-solid border-[#551b7c] bg-[#a335ee] text-sm font-bold hover:border-[#682197] hover:bg-[#b545ff]
                         sm:mr-4 sm:w-[175px] sm:py-4 sm:text-2xl"
           />
           <Anchor
-            to="/home"
+            to="/"
             name={'YouTube'}
             className=" ml-2 w-[95px] border-4 border-solid border-[#8f0000] bg-[#ff0000] text-sm font-bold hover:border-[#ad0000] hover:bg-[#ff0e0e] 
                         sm:ml-4 sm:w-[175px] sm:py-4 sm:text-2xl"
