@@ -11,12 +11,12 @@ interface Page {
 
 function Navbar() {
   const pages: Page[] = [
-    { name: 'HOME', route: '/' },
-    { name: 'VIDEO GAMES', route: '/video-games' },
-    { name: 'CATEGORIES', route: '/categories' },
-    { name: 'PLATFORMS', route: '/platforms' },
-    { name: 'ABOUT', route: '/about' },
-    { name: 'CONTACT', route: '/contact' },
+    { name: 'HOME', route: '/epic-game-news-reactjs' },
+    { name: 'VIDEO GAMES', route: '/epic-game-news-reactjs/video-games' },
+    { name: 'CATEGORIES', route: '/epic-game-news-reactjs/categories' },
+    { name: 'PLATFORMS', route: '/epic-game-news-reactjs/platforms' },
+    { name: 'ABOUT', route: '/epic-game-news-reactjs/about' },
+    { name: 'CONTACT', route: '/epic-game-news-reactjs/contact' },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -60,7 +60,7 @@ function Navbar() {
         <div className="py-2 xl:py-4">
           <div className="flex items-center font-bold sm:justify-center xl:justify-between">
             {/* Link to Home Page */}
-            <Link to="/" className="flex">
+            <Link to="/epic-game-news-reactjs" className="flex">
               <img
                 className="h-6 sm:h-10"
                 src={logo}

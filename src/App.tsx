@@ -14,16 +14,22 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/home" element={<Navigate to="/" />} />
+          <Route path="/epic-game-news-reactjs" element={<Home />} />
           <Route
-            path="/epic-game-news-reactjs/*"
-            element={<Navigate to="/" />}
+            path="/epic-game-news-reactjs/video-games"
+            element={<VideoGames />}
           />
-          <Route path="/video-games" element={<VideoGames />} />
-          <Route path="/categories" element={<Categories />} />
-          <Route path="/platforms" element={<Platforms />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route
+            path="/epic-game-news-reactjs/categories"
+            element={<Categories />}
+          />
+          <Route
+            path="/epic-game-news-reactjs/platforms"
+            element={<Platforms />}
+          />
+          <Route path="/epic-game-news-reactjs/about" element={<About />} />
+          <Route path="/epic-game-news-reactjs/contact" element={<Contact />} />
+
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
