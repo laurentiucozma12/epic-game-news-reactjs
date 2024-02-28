@@ -43,3 +43,5 @@ npm install @heroicons/react
 - [Routing](https://www.youtube.com/watch?v=TWz4TjSssbg)
 - [How to Create a Video Background Component in React JS - With a Background Overlay](https://www.youtube.com/watch?v=LSRNmhLS76o)
 - [cn() - Every Tailwind Coder Needs It (clsx + twMerge)](https://www.youtube.com/watch?v=re2JFITR7TI)
+- Parallax:
+  - [The Parallax Effect // 5 Minute WebDev Project](https://www.youtube.com/watch?v=UgIwjLg4ONk)

@@ -32,7 +32,8 @@ function HeroSection() {
                         sm:mr-4 sm:w-[175px] sm:py-4 sm:text-2xl"
           />
           <Anchor
-            to="/"
+            to="https://www.youtube.com/@hymerrathebarbarian?sub_confirmation=1"
+            target={'_blank'}
             name={'YouTube'}
             className=" ml-2 w-[95px] border-4 border-solid border-[#8f0000] bg-[#ff0000] text-sm font-bold hover:border-[#ad0000] hover:bg-[#ff0e0e] 
                         sm:ml-4 sm:w-[175px] sm:py-4 sm:text-2xl"

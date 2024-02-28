@@ -12,7 +12,8 @@ function Home() {
           className="mx-auto max-w-7xl
                     px-6 lg:px-4 2xl:px-0"
         >
-          <section id="text1">
+          <section id="news" className="pt-16">
+            <h1 className="text-5xl">NEWS</h1>
             <p>
               Home Page Content from Home Page. Lorem ipsum dolor sit, amet
               consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
@@ -93,20 +94,7 @@ function Home() {
               dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
               sunt voluptates, at dolore voluptate labore sequi dolor qui est?
               Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias.
-            </p>
-            <p id="text2">
-              Content from Home Page. Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
-              voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
+              molestias. Content from Home Page. Lorem ipsum dolor sit, amet
               consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
               dolore voluptate labore sequi dolor qui est? Officia earum nostrum
               delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
@@ -133,12 +121,19 @@ function Home() {
               dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
               sunt voluptates, at dolore voluptate labore sequi dolor qui est?
               Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias.
-            </p>
-            <p>
-              Content from Home Page. Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
-              voluptate labore sequi dolor qui est? Officia earum nostrum
+              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
+              sequi dolor qui est? Officia earum nostrum delectus error
+              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
+              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
+              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
+              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
+              Officia earum nostrum delectus error repudiandae. Tempora, omnis
+              molestias. Content from Home Page. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
+              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
               delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
               dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
               sunt voluptates, at dolore voluptate labore sequi dolor qui est?
@@ -176,8 +171,7 @@ function Home() {
               molestias.
             </p>
           </section>
-          <section id="news">
-            <h1 className="text-5xl">NEWS</h1>
+          <section>
             <p>
               Content from Home Page. Lorem ipsum dolor sit, amet consectetur
               adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
