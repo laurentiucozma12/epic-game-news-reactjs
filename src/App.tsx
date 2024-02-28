@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navigate } from 'react-router-dom';
 import Home from './components/pages/Home';
 import VideoGames from './components/pages/VideoGames';
 import Categories from './components/pages/Categories';
