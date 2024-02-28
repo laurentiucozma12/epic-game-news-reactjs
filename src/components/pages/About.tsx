@@ -15,13 +15,13 @@ function About() {
       >
         <section
           id="about-us"
-          className=" mt-2 rounded-xl bg-[#3a393a] p-4 
+          className=" mt-2 rounded-xl border-4 border-solid border-[#551b7c] bg-[#0f100fe6] p-4
                       sm:p-6
                       xl:col-start-1 xl:col-end-9 xl:mt-0 xl:p-8"
         >
           <div>
             <h3
-              className=" mb-1 w-fit text-2xl font-bold duration-700 hover:text-[#b545ff]
+              className=" mb-1 w-fit text-2xl font-bold text-[#a335ee] duration-700 duration-700 hover:text-[#b545ff] hover:text-[#b545ff]
                           sm:text-5xl"
             >
               Who are we?
@@ -56,7 +56,7 @@ function About() {
               </li>
             </ul>
             <h3
-              className="mb-0 w-fit text-xl font-bold duration-700 hover:text-[#b545ff]
+              className="mb-0 w-fit text-xl font-bold text-[#a335ee] duration-700 hover:text-[#b545ff]
                       sm:text-3xl "
             >
               Our mission
@@ -66,7 +66,7 @@ function About() {
               a fun journey.
             </p>
             <h3
-              className=" mb-0 w-fit text-xl font-bold duration-700 hover:text-[#b545ff]
+              className=" mb-0 w-fit text-xl font-bold text-[#a335ee] duration-700 hover:text-[#b545ff]
                       sm:text-3xl "
             >
               Our Vission
@@ -79,7 +79,7 @@ function About() {
         </section>
         <section
           id="youtube"
-          className=" mt-2 rounded-xl bg-[#3a393a] px-8 py-4 
+          className=" mt-2 rounded-xl border-4 border-solid border-[#551b7c] bg-[#0f100fe6] px-8 py-4
                       xl:col-start-9 xl:col-end-13 xl:mt-0"
         >
           <a
