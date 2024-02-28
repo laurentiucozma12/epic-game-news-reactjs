@@ -8,16 +8,16 @@ function About() {
     <>
       <Header />
       <main
-        className=" mx-auto mt-10 block max-w-7xl px-6 py-2
-                    sm:mt-16
+        className=" mx-auto mt-10 block max-w-7xl px-2 
+                    sm:mt-14 sm:px-2
                     lg:px-4 
-                    xl:grid xl:grid-cols-12 xl:gap-6
+                    xl:mt-24 xl:grid xl:grid-cols-12 xl:gap-6
                     2xl:px-0"
       >
         <section
           id="about-us"
-          className=" rounded-xl bg-[#3a393a] px-8 py-4
-                      xl:col-start-1 xl:col-end-9"
+          className=" mt-2 rounded-xl bg-[#3a393a] px-8 py-4
+                      xl:col-start-1 xl:col-end-9 xl:mt-0"
         >
           <div>
             <h3
@@ -79,8 +79,8 @@ function About() {
         </section>
         <section
           id="youtube"
-          className=" rounded-xl bg-[#3a393a] px-8 py-4
-                      xl:col-start-9 xl:col-end-13"
+          className=" mt-2 rounded-xl bg-[#3a393a] px-8 py-4 
+                      xl:col-start-9 xl:col-end-13 xl:mt-0"
         >
           <a
             href="https://www.youtube.com/@hymerrathebarbarian?sub_confirmation=1"

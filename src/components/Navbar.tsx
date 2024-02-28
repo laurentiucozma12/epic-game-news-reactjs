@@ -57,7 +57,7 @@ function Navbar() {
                     xl:bg-transparent
                     2xl:px-0`}
       >
-        <div className="py-2">
+        <div className="py-2 xl:py-4">
           <div className="flex items-center font-bold sm:justify-center xl:justify-between">
             {/* Link to Home Page */}
             <Link to="/" className="flex">
@@ -90,7 +90,7 @@ function Navbar() {
               <ul
                 className={`
                             absolute left-0 z-[-1] block w-full text-base transition-all ease-in
-                            ${navbarBackground === 'transparent' ? 'bg-[#171717e6] duration-0' : 'bg-[#161616] duration-0'}
+                            ${navbarBackground === 'transparent' ? 'bg-[#171717e6] duration-0 sm:bg-[#161616]' : 'bg-[#161616] duration-0'}
                             sm:duration-500
                             xl:static xl:z-auto xl:flex xl:bg-transparent
                             ${isOpen ? 'top-10 sm:top-14' : 'top-[-490px]'}
