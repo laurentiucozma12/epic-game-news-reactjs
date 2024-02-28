@@ -7,6 +7,9 @@
     @apply font-Rubik;
   }
 }
+* {
+  scroll-behavior: smooth;
+}
 
 #root {
   min-height: 100dvh;
@@ -18,23 +21,4 @@
 
 main {
   flex: 1 1 0%;
-}
-
-.text-border {
-  background-clip: text;
-  -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: calc(1em / 30);
-  -webkit-background-clip: text;
-}
-
-.text-border:hover {
-  -webkit-text-stroke-color: yellow;
-  color: #0f100fe6;
-  color: #0f100fcc;
-  color: #171717e6;
-  color: #21212199;
-  color: #8f0000;
-  color: #ff0e0e;
-  color: #ff0000;
-  color: #ad0000;
 }

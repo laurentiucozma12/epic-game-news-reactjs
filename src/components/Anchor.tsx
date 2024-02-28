@@ -7,19 +7,32 @@ interface AnchorProps {
   name: string;
   className?: string;
 }
-
 function Anchor(props: React.PropsWithChildren<AnchorProps>) {
-  return (
-    <Link
-      to={props.to}
-      className={twMerge(
-        `block rounded-lg bg-gray-700 px-4 py-3 text-center duration-700`,
-        props.className,
-      )}
-    >
-      {props.name}
-    </Link>
-  );
+  if (props.to && props.to.includes('#')) {
+    return (
+      <a
+        href={props.to}
+        className={twMerge(
+          `block rounded-lg bg-gray-700 px-4 py-3 text-center duration-700`,
+          props.className,
+        )}
+      >
+        {props.name}
+      </a>
+    );
+  } else {
+    return (
+      <Link
+        to={props.to}
+        className={twMerge(
+          `block rounded-lg bg-gray-700 px-4 py-3 text-center duration-700`,
+          props.className,
+        )}
+      >
+        {props.name}
+      </Link>
+    );
+  }
 }
 
 Anchor.propTypes = {

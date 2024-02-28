@@ -36,8 +36,9 @@ npm install @heroicons/react
 
 ## Resources
 
-- Format code [Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
-- Format code [Vite React App with EsLint & Prettier in VSCode](https://www.youtube.com/watch?v=SMbqi1HPprc)
+- Format code
+  - [Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+  - [Vite React App with EsLint & Prettier in VSCode](https://www.youtube.com/watch?v=SMbqi1HPprc)
 - [React Website Tutorial - Beginner React JS Project Fully Responsive](https://www.youtube.com/watch?v=I2UBjN5ER4s)
 - [Routing](https://www.youtube.com/watch?v=TWz4TjSssbg)
 - [How to Create a Video Background Component in React JS - With a Background Overlay](https://www.youtube.com/watch?v=LSRNmhLS76o)
