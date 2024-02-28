@@ -9,208 +9,84 @@ function Home() {
       <main>
         <HeroSection />
         <div
-          className="mx-auto max-w-7xl
-                    px-6 lg:px-4 2xl:px-0"
+          className=" mx-auto max-w-7xl
+                      px-6 lg:px-4 xl:grid xl:grid-cols-12 xl:gap-6 2xl:px-0"
         >
-          <section id="news" className="pt-16">
-            <h1 className="text-5xl">NEWS</h1>
+          <section id="news" className="xl:col-start-1 xl:col-end-9">
+            <h1 className="text-5xl ">NEWS</h1>
             <p>
-              Home Page Content from Home Page. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem itaque nesciunt fugiat maxime earum quisquam? Enim,
+              asperiores tenetur accusamus accusantium iusto nemo ducimus
+              delectus impedit temporibus, modi odio, ad voluptas. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptatem itaque
+              nesciunt fugiat maxime earum quisquam? Enim, asperiores tenetur
+              accusamus accusantium iusto nemo ducimus delectus impedit
+              temporibus, modi odio, ad voluptas. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatem itaque nesciunt fugiat
+              maxime earum quisquam? Enim, asperiores tenetur accusamus
+              accusantium iusto nemo ducimus delectus impedit temporibus, modi
+              odio, ad voluptas. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptatem itaque nesciunt fugiat maxime earum
+              quisquam? Enim, asperiores tenetur accusamus accusantium iusto
+              nemo ducimus delectus impedit temporibus, modi odio, ad voluptas.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem itaque nesciunt fugiat maxime earum quisquam? Enim,
+              asperiores tenetur accusamus accusantium iusto nemo ducimus
+              delectus impedit temporibus, modi odio, ad voluptas. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptatem itaque
+              nesciunt fugiat maxime earum quisquam? Enim, asperiores tenetur
+              accusamus accusantium iusto nemo ducimus delectus impedit
+              temporibus, modi odio, ad voluptas. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatem itaque nesciunt fugiat
+              maxime earum quisquam? Enim, asperiores tenetur accusamus
+              accusantium iusto nemo ducimus delectus impedit temporibus, modi
+              odio, ad voluptas. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptatem itaque nesciunt fugiat maxime earum
+              quisquam? Enim, asperiores tenetur accusamus accusantium iusto
+              nemo ducimus delectus impedit temporibus, modi odio, ad voluptas.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem itaque nesciunt fugiat maxime earum quisquam? Enim,
+              asperiores tenetur accusamus accusantium iusto nemo ducimus
+              delectus impedit temporibus, modi odio, ad voluptas. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptatem itaque
+              nesciunt fugiat maxime earum quisquam? Enim, asperiores tenetur
+              accusamus accusantium iusto nemo ducimus delectus impedit
+              temporibus, modi odio, ad voluptas. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatem itaque nesciunt fugiat
+              maxime earum quisquam? Enim, asperiores tenetur accusamus
+              accusantium iusto nemo ducimus delectus impedit temporibus, modi
+              odio, ad voluptas. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptatem itaque nesciunt fugiat maxime earum
+              quisquam? Enim, asperiores tenetur accusamus accusantium iusto
+              nemo ducimus delectus impedit temporibus, modi odio, ad voluptas.
             </p>
           </section>
-          <section>
+          <section id="youtube" className="xl:col-start-9 xl:col-end-13">
+            <h1>youtube</h1>
             <p>
-              Content from Home Page. Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
-              voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Content from Home Page. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Content from Home Page. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias.
-            </p>
-          </section>
-          <section>
-            <p>
-              Content from Home Page. Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
-              voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Ipsam sit ullam, sunt voluptates, at dolore voluptate labore
-              sequi dolor qui est? Officia earum nostrum delectus error
-              repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates, at
-              dolore voluptate labore sequi dolor qui est? Officia earum nostrum
-              delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
-              dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam,
-              sunt voluptates, at dolore voluptate labore sequi dolor qui est?
-              Officia earum nostrum delectus error repudiandae. Tempora, omnis
-              molestias.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem itaque nesciunt fugiat maxime earum quisquam? Enim,
+              asperiores tenetur accusamus accusantium iusto nemo ducimus
+              delectus impedit temporibus, modi odio, ad voluptas. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptatem itaque
+              nesciunt fugiat maxime earum quisquam? Enim, asperiores tenetur
+              accusamus accusantium iusto nemo ducimus delectus impedit
+              temporibus, modi odio, ad voluptas. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatem itaque nesciunt fugiat
+              maxime earum quisquam? Enim, asperiores tenetur accusamus
+              accusantium iusto nemo ducimus delectus impedit temporibus, modi
+              odio, ad voluptas. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptatem itaque nesciunt fugiat maxime earum
+              quisquam? Enim, asperiores tenetur accusamus accusantium iusto
+              nemo ducimus delectus impedit temporibus, modi odio, ad voluptas.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem itaque nesciunt fugiat maxime earum quisquam? Enim,
+              asperiores tenetur accusamus accusantium iusto nemo ducimus
+              delectus impedit temporibus, modi odio, ad voluptas. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptatem itaque
+              nesciunt fugiat maxime earum quisquam? Enim, asperiores tenetur
+              accusamus accusantium iusto nemo ducimus delectus impedit
             </p>
           </section>
         </div>

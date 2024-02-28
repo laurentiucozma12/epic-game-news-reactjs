@@ -56,7 +56,7 @@ function About() {
               </li>
             </ul>
             <h3
-              className=" mb-0 w-fit text-xl font-bold duration-700 hover:text-[#b545ff]
+              className="mb-0 w-fit text-xl font-bold duration-700 hover:text-[#b545ff]
                       sm:text-3xl "
             >
               Our mission
