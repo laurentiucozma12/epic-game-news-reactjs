@@ -1,7 +1,14 @@
-import video from '../assets/videos/dragonflight-video.mp4';
+import video1280x720 from '../assets/videos/dragonflight-video1280x720.mp4';
+import video640x480 from '../assets/videos/dragonflight-video640x480.mp4';
 import Anchor from './Anchor';
 
 function HeroSection() {
+  let video;
+  if (innerWidth > 640) {
+    video = video1280x720;
+  } else {
+    video = video640x480;
+  }
   return (
     <div className="flex w-full flex-col items-center justify-center object-contain">
       <video

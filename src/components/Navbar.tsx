@@ -11,7 +11,7 @@ interface Page {
 
 function Navbar() {
   const pages: Page[] = [
-    { name: 'HOME', route: '/epic-game-news-reactjs' },
+    { name: 'HOME', route: '/epic-game-news-reactjs/' },
     { name: 'VIDEO GAMES', route: '/epic-game-news-reactjs/video-games' },
     { name: 'CATEGORIES', route: '/epic-game-news-reactjs/categories' },
     { name: 'PLATFORMS', route: '/epic-game-news-reactjs/platforms' },
@@ -60,7 +60,7 @@ function Navbar() {
         <div className="py-2 xl:py-4">
           <div className="flex items-center font-bold sm:justify-center xl:justify-between">
             {/* Link to Home Page */}
-            <Link to="/epic-game-news-reactjs" className="flex">
+            <Link to="/epic-game-news-reactjs/" className="flex">
               <img
                 className="h-6 sm:h-10"
                 src={logo}

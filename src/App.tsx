@@ -13,7 +13,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/epic-game-news-reactjs" element={<Home />} />
+          <Route path="/epic-game-news-reactjs/" element={<Home />} />
+          <Route path="/epic-game-news-reactjs/home" element={<Home />} />
           <Route
             path="/epic-game-news-reactjs/video-games"
             element={<VideoGames />}
