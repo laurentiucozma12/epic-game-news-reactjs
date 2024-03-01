@@ -3,8 +3,6 @@ import berserk500x430 from '../../assets/images/youtube/berserk500x430.webp';
 import Header from '../Header';
 import Footer from '../Footer';
 import useTextColorChange from '../../hooks/useTextColorChange.tsx';
-import useBackgroundColorChange from '../../hooks/useBackgroundColorChange.tsx';
-import useBorderColorChange from '../../hooks/useBorderColorChange.tsx';
 
 function About() {
   // Change text color
