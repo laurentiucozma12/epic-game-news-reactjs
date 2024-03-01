@@ -1,9 +1,6 @@
 import { useRef } from 'react';
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax';
 import Header from '../Header';
-import Footer from '../Footer';
-import img1 from '../../assets/images/img-1.jpg';
-import img2 from '../../assets/images/img-2.jpg';
 
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`;
