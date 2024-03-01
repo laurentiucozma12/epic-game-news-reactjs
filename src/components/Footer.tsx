@@ -1,4 +1,4 @@
-import useColorChange from '../hooks/useColorChange.tsx';
+import useTextColorChange from '../hooks/useTextColorChange.tsx';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,7 +8,7 @@ function Footer() {
   const intervalDuration = 1000;
 
   // Use the custom hook
-  useColorChange('changeFooterTextColor', colors, intervalDuration);
+  useTextColorChange('changeFooterTextColor', colors, intervalDuration);
 
   return (
     <footer className="flex justify-center bg-[#101110] align-middle">

@@ -2,17 +2,26 @@ import berserk200x233 from '../../assets/images/youtube/berserk200x233.webp';
 import berserk500x430 from '../../assets/images/youtube/berserk500x430.webp';
 import Header from '../Header';
 import Footer from '../Footer';
-import useColorChange from '../../hooks/useColorChange.tsx';
+import useTextColorChange from '../../hooks/useTextColorChange.tsx';
+import useBackgroundColorChange from '../../hooks/useBackgroundColorChange.tsx';
+import useBorderColorChange from '../../hooks/useBorderColorChange.tsx';
 
 function About() {
-  // Define colors and interval duration
+  // Change text color
   const colors = ['#a335ee', '#fff'];
   const colorsAuthor = ['#0EF1FF', '#fff'];
   const intervalDuration = 1200;
 
+  // Change border color
+  // Change background color
+
   // Use the custom hook
-  useColorChange('changeAboutYtTextColor', colors, intervalDuration);
-  useColorChange('changeAboutAuthorTextColor', colorsAuthor, intervalDuration);
+  useTextColorChange('changeAboutYtTextColor', colors, intervalDuration);
+  useTextColorChange(
+    'changeAboutAuthorTextColor',
+    colorsAuthor,
+    intervalDuration,
+  );
 
   return (
     <>

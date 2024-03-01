@@ -26,7 +26,7 @@ function Navbar() {
     const handleScroll = () => {
       // Bigger Screens
       if (window.innerWidth >= 1280) {
-        if (window.scrollY > window.innerHeight / 4.5) {
+        if (window.scrollY > 10) {
           setNavbarBackground('solid');
         } else {
           setNavbarBackground('transparent');
