@@ -2,25 +2,8 @@ import berserk200x233 from '../../assets/images/youtube/berserk200x233.webp';
 import berserk500x430 from '../../assets/images/youtube/berserk500x430.webp';
 import Header from '../Header';
 import Footer from '../Footer';
-import useTextColorChange from '../../hooks/useTextColorChange.tsx';
 
 function About() {
-  // Change text color
-  const colors = ['#a335ee', '#fff'];
-  const colorsAuthor = ['#0EF1FF', '#fff'];
-  const intervalDuration = 1200;
-
-  // Change border color
-  // Change background color
-
-  // Use the custom hook
-  useTextColorChange('changeAboutYtTextColor', colors, intervalDuration);
-  useTextColorChange(
-    'changeAboutAuthorTextColor',
-    colorsAuthor,
-    intervalDuration,
-  );
-
   return (
     <>
       <Header />
@@ -104,10 +87,7 @@ function About() {
               href="https://www.youtube.com/@hymerrathebarbarian?sub_confirmation=1"
               target="_blank"
             >
-              <h4
-                id="changeAboutYtTextColor"
-                className="text-center font-bold duration-700"
-              >
+              <h4 className="text-center font-bold duration-700 hover:text-[#ff0000]">
                 <span className="sm:text-[30px] xl:text-[39px]">
                   Check out my
                 </span>
@@ -128,10 +108,7 @@ function About() {
                   alt="A-Berserker-Cometh-By-Samwise-Didier"
                 />
               </picture>
-              <figcaption
-                id="changeAboutAuthorTextColor"
-                className="text-center font-bold duration-700"
-              >
+              <figcaption className="text-center font-bold duration-700 hover:text-[#0EF1FF]">
                 <a
                   href="https://www.artstation.com/artwork/aR6AJL"
                   target="_blank"

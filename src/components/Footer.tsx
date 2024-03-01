@@ -1,14 +1,10 @@
-import useTextColorChange from '../hooks/useTextColorChange.tsx';
+import useColorChange from '../hooks/useColorChange';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
 
-  // Define colors and interval duration
-  const colors = ['#35E2ED', '#a335ee'];
-  const intervalDuration = 1000;
-
-  // Use the custom hook
-  useTextColorChange('changeFooterTextColor', colors, intervalDuration);
+  const colors = ['#a335ee', '#0EF1FF'];
+  const currentColor = useColorChange(colors);
 
   return (
     <footer className="flex justify-center bg-[#101110] align-middle">
@@ -27,10 +23,10 @@ function Footer() {
             <span className="hidden xl:inline">&nbsp;</span>
             by Official
             <a
-              id="changeFooterTextColor"
               href="https://epicgamenews.com/"
               target="_blank"
-              className="font-bold duration-700"
+              style={{ color: currentColor }}
+              className={`font-bold duration-700`}
             >
               &nbsp;Epic Game News
             </a>
