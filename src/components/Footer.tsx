@@ -15,7 +15,7 @@ function Footer() {
       <div className="w-full max-w-7xl py-4">
         <p className="block text-center xl:flex xl:justify-center xl:align-middle">
           <span className="block">
-            © Copyright 2024 - {currentYear}
+            © Copyright 2023 - {currentYear}
             <span className="hidden xl:inline">&nbsp;|&nbsp;</span>
           </span>
           <span className="block">
@@ -25,7 +25,7 @@ function Footer() {
           <span className="block">This website was made</span>
           <span className="block">
             <span className="hidden xl:inline">&nbsp;</span>
-            by
+            by Official
             <a
               id="changeFooterTextColor"
               href="https://epicgamenews.com/"
