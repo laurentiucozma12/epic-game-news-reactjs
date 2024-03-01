@@ -26,7 +26,7 @@ function Footer() {
               href="https://epicgamenews.com/"
               target="_blank"
               style={{ color: currentColor }}
-              className={`font-bold duration-700`}
+              className={`font-bold duration-1000`}
             >
               &nbsp;Epic Game News
             </a>
