@@ -9,7 +9,16 @@
 }
 * {
   scroll-behavior: smooth;
+  /* Hide scrollbar but still usable */
+  /* -ms-overflow-style: none !important; /* IE and Edge */
+  /*scrollbar-width: none !important; /* Firefox */
 }
+
+/* Hide scrollbar but still usable */
+/* *::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+} */
 
 #root {
   min-height: 100dvh;

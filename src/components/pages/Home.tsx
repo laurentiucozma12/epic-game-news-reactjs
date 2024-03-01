@@ -1,8 +1,6 @@
 import Header from '../Header';
 import Footer from '../Footer';
 import HeroSection from '../HeroSection';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import arthas from '../../assets/images/transparent-background/arthas.png';
 
 function Home() {
   return (
@@ -92,15 +90,6 @@ function Home() {
             </p>
           </section>
         </div>
-        {/* <Parallax
-          pages={4}
-          style={{ top: '0', left: '0' }}
-          className="w-full object-contain"
-        >
-          <ParallaxLayer offset={2} speed={0} factor={1}>
-            <img className="absolute bottom-0 right-0 w-[40vw]" src={arthas} />
-          </ParallaxLayer>
-        </Parallax> */}
       </main>
       <Footer />
     </>

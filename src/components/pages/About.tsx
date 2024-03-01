@@ -2,28 +2,37 @@ import berserk200x233 from '../../assets/images/youtube/berserk200x233.webp';
 import berserk500x430 from '../../assets/images/youtube/berserk500x430.webp';
 import Header from '../Header';
 import Footer from '../Footer';
+import useColorChange from '../../hooks/useColorChange.tsx';
 
 function About() {
+  // Define colors and interval duration
+  const colors = ['#a335ee', '#fff'];
+  const colorsAuthor = ['#0EF1FF', '#fff'];
+  const intervalDuration = 1200;
+
+  // Use the custom hook
+  useColorChange('changeAboutYtTextColor', colors, intervalDuration);
+  useColorChange('changeAboutAuthorTextColor', colorsAuthor, intervalDuration);
+
   return (
     <>
       <Header />
-      <main className="h-max ">
+      <main className="h-max overflow-hidden">
         <div
-          className="mx-auto mt-10 block max-w-7xl px-2 
-                    sm:mt-14 sm:px-2
-                    xl:mt-24 xl:grid xl:grid-cols-12 xl:gap-6 xl:px-4
-                    2xl:px-0"
+          className=" mx-2 mb-2 mt-14 block max-w-7xl
+                      sm:mt-16
+                      xl:mx-auto xl:mb-6 xl:mt-24 xl:grid xl:grid-cols-12 xl:gap-6"
         >
           <section
             id="about-us"
-            className=" mt-2 rounded-xl border-4 border-solid border-[#551b7c] bg-[#0f100fe6]  px-2 py-2
+            className=" rounded-xl border-4 border-solid border-[#551b7c] bg-[#0f100fe6]  px-2 py-2
                         sm:px-8 sm:py-4
                         xl:col-start-1 xl:col-end-9 xl:mt-0 xl:p-8"
           >
             <div>
               <h3
                 className=" mb-1 w-fit text-2xl font-bold text-[#a335ee] duration-700 hover:text-[#b545ff]
-                          sm:text-5xl"
+                            sm:text-5xl"
               >
                 Who are we?
               </h3>
@@ -88,7 +97,10 @@ function About() {
               href="https://www.youtube.com/@hymerrathebarbarian?sub_confirmation=1"
               target="_blank"
             >
-              <h4 className="text-center font-bold duration-700 hover:text-[#ff0000]">
+              <h4
+                id="changeAboutYtTextColor"
+                className="text-center font-bold duration-700"
+              >
                 <span className="sm:text-[30px] xl:text-[39px]">
                   Check out my
                 </span>
@@ -109,7 +121,10 @@ function About() {
                   alt="A-Berserker-Cometh-By-Samwise-Didier"
                 />
               </picture>
-              <figcaption className="text-center font-bold duration-700 hover:text-[#0EF1FF]">
+              <figcaption
+                id="changeAboutAuthorTextColor"
+                className="text-center font-bold duration-700"
+              >
                 <a
                   href="https://www.artstation.com/artwork/aR6AJL"
                   target="_blank"
