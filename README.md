@@ -36,6 +36,8 @@ npm install @heroicons/react
 
 ## Resources
 
+- [Tailwind Doc](https://tailwindcss.com/)
+- [React Doc](https://react.dev/learn)
 - Format code
   - [Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
   - [Vite React App with EsLint & Prettier in VSCode](https://www.youtube.com/watch?v=SMbqi1HPprc)
