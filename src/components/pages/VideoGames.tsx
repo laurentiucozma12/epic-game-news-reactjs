@@ -29,7 +29,7 @@ function VideoGames() {
   useBackgroundColorChange('bgColor2', colorsBackground2, duration);
 
   ////// div 5 - text and border
-  const colorsText5 = ['yellow', 'green'];
+  const colorsText5 = ['yellow', 'purple'];
   useTextColorChange('textColor5', colorsText5, duration);
   const colorsBorder5 = ['yellow', 'purple'];
   useBorderColorChange('borderColor5', colorsBorder5, duration);
