@@ -44,4 +44,5 @@ npm install @heroicons/react
 - [How to Create a Video Background Component in React JS - With a Background Overlay](https://www.youtube.com/watch?v=LSRNmhLS76o)
 - [cn() - Every Tailwind Coder Needs It (clsx + twMerge)](https://www.youtube.com/watch?v=re2JFITR7TI)
 - Parallax:
+  - [React Spring Doc Parallax](https://www.react-spring.dev/docs/components/parallax)
   - [The Parallax Effect // 5 Minute WebDev Project](https://www.youtube.com/watch?v=UgIwjLg4ONk)
