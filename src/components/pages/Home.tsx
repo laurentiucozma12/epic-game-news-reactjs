@@ -18,12 +18,12 @@ function Home() {
                       xl:grid xl:grid-cols-12
                       2xl:px-0"
         >
-          <section id="news" className="xl:col-span-8">
+          <section id="news" className="xl:col-start-1 xl:col-end-9">
             <Posts />
           </section>
           <section
             id="youtube"
-            className="hidden flex-col xl:col-span-4 xl:flex"
+            className="hidden flex-col xl:col-start-9 xl:col-end-13 xl:flex"
           >
             <div className="flex-1 lg:pt-[6.5rem]">
               <img src={belf} alt="blood elf" />
