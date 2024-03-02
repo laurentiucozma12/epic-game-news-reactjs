@@ -6,6 +6,7 @@ import Platforms from './components/pages/Platforms';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import NoPage from './components/pages/NoPage';
+import Post from './components/pages/Post';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           />
           <Route path="/epic-game-news-reactjs/about" element={<About />} />
           <Route path="/epic-game-news-reactjs/contact" element={<Contact />} />
+
+          <Route path="/epic-game-news-reactjs/:postId" element={<Post />} />
 
           <Route path="*" element={<NoPage />} />
         </Routes>

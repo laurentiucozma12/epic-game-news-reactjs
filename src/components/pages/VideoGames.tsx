@@ -5,14 +5,46 @@ function VideoGames() {
   return (
     <>
       <Header />
-      <main
-        className=" mx-auto mt-10 max-w-7xl px-2 py-2 
-                    sm:mt-14 
-                    lg:px-4 
-                    xl:mt-20 
-                    2xl:px-0"
-      >
-        <section></section>
+      <main className="mx-auto mt-10 max-w-7xl px-6 py-2 sm:mt-14 lg:px-4 2xl:px-0">
+        <h2>VideoGames Page - Hi, I'm in Development 😊</h2>
+        <p>
+          Content from VideoGames Page. Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
+          voluptate labore sequi dolor qui est? Officia earum nostrum delectus
+          error repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit,
+          amet consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates,
+          at dolore voluptate labore sequi dolor qui est? Officia earum nostrum
+          delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
+          dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam, sunt
+          voluptates, at dolore voluptate labore sequi dolor qui est? Officia
+          earum nostrum delectus error repudiandae. Tempora, omnis molestias.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam sit
+          ullam, sunt voluptates, at dolore voluptate labore sequi dolor qui
+          est? Officia earum nostrum delectus error repudiandae. Tempora, omnis
+          molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Ipsam sit ullam, sunt voluptates, at dolore voluptate labore sequi
+          dolor qui est? Officia earum nostrum delectus error repudiandae.
+          Tempora, omnis molestias. Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
+          voluptate labore sequi dolor qui est? Officia earum nostrum delectus
+          error repudiandae. Tempora, omnis molestias. Lorem ipsum dolor sit,
+          amet consectetur adipisicing elit. Ipsam sit ullam, sunt voluptates,
+          at dolore voluptate labore sequi dolor qui est? Officia earum nostrum
+          delectus error repudiandae. Tempora, omnis molestias. Lorem ipsum
+          dolor sit, amet consectetur adipisicing elit. Ipsam sit ullam, sunt
+          voluptates, at dolore voluptate labore sequi dolor qui est? Officia
+          earum nostrum delectus error repudiandae. Tempora, omnis molestias.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam sit
+          ullam, sunt voluptates, at dolore voluptate labore sequi dolor qui
+          est? Officia earum nostrum delectus error repudiandae. Tempora, omnis
+          molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Ipsam sit ullam, sunt voluptates, at dolore voluptate labore sequi
+          dolor qui est? Officia earum nostrum delectus error repudiandae.
+          Tempora, omnis molestias. Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Ipsam sit ullam, sunt voluptates, at dolore
+          voluptate labore sequi dolor qui est? Officia earum nostrum delectus
+          error repudiandae. Tempora, omnis molestias.
+        </p>
       </main>
       <Footer />
     </>
