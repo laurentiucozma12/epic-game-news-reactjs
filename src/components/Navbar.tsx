@@ -81,9 +81,9 @@ function Navbar() {
             {/* Menu */}
             <div className="flex">
               {/* Searchbar for xl screens */}
-              <div className="mr-2 mt-0.5 hidden xl:block">
+              {/* <div className="mr-2 mt-0.5 hidden xl:block">
                 <Searchbar />
-              </div>
+              </div> */}
               <ul
                 className={`
                             absolute left-0 z-[-1] block w-full text-base transition-all ease-in

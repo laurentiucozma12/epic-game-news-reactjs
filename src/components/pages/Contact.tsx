@@ -12,6 +12,15 @@ function Contact() {
       <Header />
       <main style={{ width: '100%', height: '100%', background: '#253237' }}>
         <Parallax ref={parallax} pages={3}>
+          <ParallaxLayer offset={0} speed={1}>
+            <div
+              className=" z-50 mt-20 flex justify-center align-middle 
+                          sm:text-5xl 
+                          xl:text-9xl"
+            >
+              Page in Development
+            </div>
+          </ParallaxLayer>
           <ParallaxLayer
             offset={1}
             speed={1}
