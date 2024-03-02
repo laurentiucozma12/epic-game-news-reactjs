@@ -6,7 +6,7 @@ function YouTube() {
     <>
       <section
         id="youtube"
-        className=" mt-2 flex flex-col justify-center rounded-xl border-4 border-solid border-[#551b7c] bg-[#0f100fe6] px-2 py-2
+        className=" mx-auto mt-2 flex w-fit flex-col justify-center rounded-xl border-4 border-solid border-[#551b7c] bg-[#0f100fe6] px-2 py-2
                     sm:px-8 sm:py-4
                     xl:col-start-9 xl:col-end-13 xl:mt-0"
       >
