@@ -24,9 +24,9 @@ function Home() {
           </section>
           <section
             id="youtube"
-            className="ml-6 hidden xl:col-start-9 xl:col-end-13 xl:flex xl:flex-col xl:justify-between"
+            className="mb-6 ml-6 hidden xl:col-start-9 xl:col-end-13 xl:flex xl:flex-col xl:justify-between"
           >
-            <div className="rounded-xl border-4 border-solid border-[#EA6A2E] bg-[#0f100fe6] px-2 pb-2">
+            <div className="rounded-xl border-4 border-solid border-[#EA6A2E] bg-[#0f100fe6] p-2">
               <img src={belf} alt="blood elf" />
             </div>
             <div className="hidden xl:block">
