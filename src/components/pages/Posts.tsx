@@ -1,19 +1,29 @@
-import img1 from '../../assets/images/img-1.jpg';
-import img2 from '../../assets/images/img-2.jpg';
-import img3 from '../../assets/images/img-3.jpg';
-import img4 from '../../assets/images/img-4.jpg';
-import img5 from '../../assets/images/img-5.jpg';
-import img6 from '../../assets/images/img-6.jpg';
-import img7 from '../../assets/images/img-7.jpg';
-import img8 from '../../assets/images/img-8.jpg';
-import img9 from '../../assets/images/img-9.jpg';
+import img1 from '../../assets/images/900x506/img-1.webp';
+import img2 from '../../assets/images/900x506/img-2.webp';
+import img3 from '../../assets/images/900x506/img-3.webp';
+import img4 from '../../assets/images/900x506/img-4.webp';
+import img5 from '../../assets/images/900x506/img-5.webp';
+import img6 from '../../assets/images/900x506/img-6.webp';
+import img7 from '../../assets/images/900x506/img-7.webp';
+import img8 from '../../assets/images/900x506/img-8.webp';
+import img9 from '../../assets/images/900x506/img-9.webp';
+import img1_450x254 from '../../assets/images/450x254/img-1.webp';
+import img2_450x254 from '../../assets/images/450x254/img-2.webp';
+import img3_450x254 from '../../assets/images/450x254/img-3.webp';
+import img4_450x254 from '../../assets/images/450x254/img-4.webp';
+import img5_450x254 from '../../assets/images/450x254/img-5.webp';
+import img6_450x254 from '../../assets/images/450x254/img-6.webp';
+import img7_450x254 from '../../assets/images/450x254/img-7.webp';
+import img8_450x254 from '../../assets/images/450x254/img-8.webp';
+import img9_450x254 from '../../assets/images/450x254/img-9.webp';
 import { Link } from 'react-router-dom';
 
 function Posts() {
   const posts = [
     {
       id: 1,
-      img: img1,
+      img_900x506: img1,
+      img_450x254: img1_450x254,
       alt: 'img1',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '1title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -24,7 +34,8 @@ function Posts() {
     },
     {
       id: 2,
-      img: img2,
+      img_900x506: img2,
+      img_450x254: img2_450x254,
       alt: 'img2',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '2title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -35,7 +46,8 @@ function Posts() {
     },
     {
       id: 3,
-      img: img3,
+      img_900x506: img3,
+      img_450x254: img3_450x254,
       alt: 'img3',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '3title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -46,7 +58,8 @@ function Posts() {
     },
     {
       id: 4,
-      img: img4,
+      img_900x506: img4,
+      img_450x254: img4_450x254,
       alt: 'img4',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '4title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -57,7 +70,8 @@ function Posts() {
     },
     {
       id: 5,
-      img: img5,
+      img_900x506: img5,
+      img_450x254: img5_450x254,
       alt: 'img5',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '5title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -68,7 +82,8 @@ function Posts() {
     },
     {
       id: 6,
-      img: img6,
+      img_900x506: img6,
+      img_450x254: img6_450x254,
       alt: 'img6',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '6title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -79,7 +94,8 @@ function Posts() {
     },
     {
       id: 7,
-      img: img7,
+      img_900x506: img7,
+      img_450x254: img7_450x254,
       alt: 'img7',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '7title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -90,7 +106,8 @@ function Posts() {
     },
     {
       id: 8,
-      img: img8,
+      img_900x506: img8,
+      img_450x254: img8_450x254,
       alt: 'img8',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '8title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -101,7 +118,8 @@ function Posts() {
     },
     {
       id: 9,
-      img: img9,
+      img_900x506: img9,
+      img_450x254: img9_450x254,
       alt: 'img9',
       title: 'Title: Lorem ipsum dolor sit amet consectetur!',
       slug: '9title-lorem-ipsum-dolor-sit-amet-consectetur',
@@ -125,12 +143,11 @@ function Posts() {
                  rounded-lg bg-[#0f100fe6] sm:mb-6 sm:grid sm:grid-cols-12
                   sm:rounded-lg'
         >
-          <img
-            src={post.img}
-            alt={post.alt}
-            className=" rounded-t-lg
-                    sm:col-start-1 sm:col-end-5 sm:w-full sm:rounded-l-lg"
-          />
+          <picture>
+            <source srcSet={post.img_900x506} media="(min-width: 1280px)" />
+            <source srcSet={post.img_450x254} media="(min-width: 0px)" />
+            <img src={post.img_900x506} alt={post.alt} />
+          </picture>
           <div
             className=" p-3
                     sm:col-start-5 sm:col-end-13 sm:px-2 sm:py-1
