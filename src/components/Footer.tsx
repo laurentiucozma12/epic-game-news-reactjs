@@ -1,10 +1,16 @@
-import useColorChange from '../hooks/useColorChange';
+import { useState } from 'react';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   const colors = ['#a335ee', '#0EF1FF'];
-  const currentColor = useColorChange(colors);
+  const [currentColorIndex, setCurrentColorIndex] = useState(0);
+
+  setInterval(() => {
+    setCurrentColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
+  }, 1000);
+
+  const currentColor = colors[currentColorIndex];
 
   return (
     <footer className="flex justify-center bg-[#101110] align-middle">
@@ -26,7 +32,7 @@ function Footer() {
               href="https://epicgamenews.com/"
               target="_blank"
               style={{ color: currentColor }}
-              className={`font-bold duration-1000`}
+              className="font-bold duration-1000"
             >
               &nbsp;Epic Game News
             </a>
