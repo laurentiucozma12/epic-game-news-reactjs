@@ -31,7 +31,7 @@ function App() {
           <Route path="/epic-game-news-reactjs/about" element={<About />} />
           <Route path="/epic-game-news-reactjs/contact" element={<Contact />} />
 
-          <Route path="/epic-game-news-reactjs/:postId" element={<Post />} />
+          <Route path="/epic-game-news-reactjs/:slug" element={<Post />} />
 
           <Route path="*" element={<NoPage />} />
         </Routes>
