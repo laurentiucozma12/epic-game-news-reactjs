@@ -12,9 +12,6 @@ interface Page {
 function Navbar() {
   const pages: Page[] = [
     { name: 'HOME', route: '/epic-game-news-reactjs/' },
-    { name: 'VIDEO GAMES', route: '/epic-game-news-reactjs/video-games' },
-    { name: 'CATEGORIES', route: '/epic-game-news-reactjs/categories' },
-    { name: 'PLATFORMS', route: '/epic-game-news-reactjs/platforms' },
     { name: 'ABOUT', route: '/epic-game-news-reactjs/about' },
     { name: 'CONTACT', route: '/epic-game-news-reactjs/contact' },
   ];
