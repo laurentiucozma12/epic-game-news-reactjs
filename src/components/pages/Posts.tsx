@@ -93,8 +93,8 @@ function Posts() {
         <Link
           key={post.id}
           to={`/epic-game-news-reactjs/${post.id}`}
-          className='className=" lg:mb-8" mb-6 rounded-lg 
-                  bg-[#0f100fe6] sm:mb-6 sm:grid sm:grid-cols-12
+          className='className=" lg:mb-8" mb-6 block 
+                 rounded-lg bg-[#0f100fe6] sm:mb-6 sm:grid sm:grid-cols-12
                   sm:rounded-lg'
         >
           <img
