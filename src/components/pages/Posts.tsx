@@ -143,7 +143,7 @@ function Posts() {
                  rounded-lg bg-[#0f100fe6] sm:mb-6 sm:grid sm:grid-cols-12
                   sm:rounded-lg'
         >
-          <picture>
+          <picture className="rounded-t-lg sm:col-start-1 sm:col-end-5 sm:w-full sm:rounded-l-lg">
             <source srcSet={post.img_900x506} media="(min-width: 1280px)" />
             <source srcSet={post.img_450x254} media="(min-width: 0px)" />
             <img src={post.img_900x506} alt={post.alt} />
