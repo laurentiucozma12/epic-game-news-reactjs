@@ -139,14 +139,18 @@ function Posts() {
           key={post.id}
           to={`/epic-game-news-reactjs/${post.slug}`}
           state={{ post }}
-          className='className=" lg:mb-8" mb-6 block 
-                 rounded-lg bg-[#0f100fe6] sm:mb-6 sm:grid sm:grid-cols-12
-                  sm:rounded-lg'
+          className=' className=" lg:mb-8" mb-6 block 
+                      rounded-lg bg-[#0f100fe6] sm:mb-6 sm:grid sm:grid-cols-12
+                      sm:rounded-lg'
         >
-          <picture className="rounded-t-lg sm:col-start-1 sm:col-end-5 sm:w-full sm:rounded-l-lg">
+          <picture className="sm:col-start-1 sm:col-end-5 ">
             <source srcSet={post.img_900x506} media="(min-width: 1280px)" />
             <source srcSet={post.img_450x254} media="(min-width: 0px)" />
-            <img src={post.img_900x506} alt={post.alt} />
+            <img
+              src={post.img_900x506}
+              alt={post.alt}
+              className="w-full rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none"
+            />
           </picture>
           <div
             className=" p-3
