@@ -1,24 +1,26 @@
-import img1 from '../../assets/images/900x506/img-1.webp';
-import img2 from '../../assets/images/900x506/img-2.webp';
-import img3 from '../../assets/images/900x506/img-3.webp';
-import img4 from '../../assets/images/900x506/img-4.webp';
-import img5 from '../../assets/images/900x506/img-5.webp';
-import img6 from '../../assets/images/900x506/img-6.webp';
-import img7 from '../../assets/images/900x506/img-7.webp';
-import img8 from '../../assets/images/900x506/img-8.webp';
-import img9 from '../../assets/images/900x506/img-9.webp';
-import img1_450x254 from '../../assets/images/450x254/img-1.webp';
-import img2_450x254 from '../../assets/images/450x254/img-2.webp';
-import img3_450x254 from '../../assets/images/450x254/img-3.webp';
-import img4_450x254 from '../../assets/images/450x254/img-4.webp';
-import img5_450x254 from '../../assets/images/450x254/img-5.webp';
-import img6_450x254 from '../../assets/images/450x254/img-6.webp';
-import img7_450x254 from '../../assets/images/450x254/img-7.webp';
-import img8_450x254 from '../../assets/images/450x254/img-8.webp';
-import img9_450x254 from '../../assets/images/450x254/img-9.webp';
+import img1 from '../assets/images/900x506/img-1.webp';
+import img2 from '../assets/images/900x506/img-2.webp';
+import img3 from '../assets/images/900x506/img-3.webp';
+import img4 from '../assets/images/900x506/img-4.webp';
+import img5 from '../assets/images/900x506/img-5.webp';
+import img6 from '../assets/images/900x506/img-6.webp';
+import img7 from '../assets/images/900x506/img-7.webp';
+import img8 from '../assets/images/900x506/img-8.webp';
+import img9 from '../assets/images/900x506/img-9.webp';
+import img1_450x254 from '../assets/images/450x254/img-1.webp';
+import img2_450x254 from '../assets/images/450x254/img-2.webp';
+import img3_450x254 from '../assets/images/450x254/img-3.webp';
+import img4_450x254 from '../assets/images/450x254/img-4.webp';
+import img5_450x254 from '../assets/images/450x254/img-5.webp';
+import img6_450x254 from '../assets/images/450x254/img-6.webp';
+import img7_450x254 from '../assets/images/450x254/img-7.webp';
+import img8_450x254 from '../assets/images/450x254/img-8.webp';
+import img9_450x254 from '../assets/images/450x254/img-9.webp';
 import { Link } from 'react-router-dom';
 
 function Posts() {
+  const maxLength = 200;
+
   const posts = [
     {
       id: 1,
@@ -129,8 +131,6 @@ function Posts() {
         'Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam delectus explicabo facere perferendis tenetur aliquid, eveniet impedit at quos fugit doloribus? Sequi dolorem nesciunt enim eius explicabo omnis dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus quod, accusamus eum eius labore veniam est consequatur quae ut quibusdam. Mollitia, ex repudiandae accusantium ipsa debitis veritatis rem ad minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque temporibus ea voluptas fugiat veniam magni ex, obcaecati suscipit expedita quaerat corporis enim, sint accusamus aliquid omnis debitis ad dolorem? Mollitia.',
     },
   ];
-
-  const maxLength = 200;
 
   return (
     <>

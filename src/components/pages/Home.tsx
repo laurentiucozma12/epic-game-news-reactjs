@@ -3,7 +3,7 @@ import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 import belf from '../../assets/images/transparent-background/belf.webp';
 import arthas from '../../assets/images/transparent-background/arthas.webp';
-import Posts from './Posts';
+import Posts from '../Posts';
 import YouTube from '../YouTube';
 
 function Home() {
