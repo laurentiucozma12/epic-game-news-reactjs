@@ -1,6 +1,6 @@
 # <img src="https://github.com/laurentiucozma12/epic-game-news-reactjs/blob/0666c442747e514d43b40dc9b080b2144bbda717/app/public/logo-epic-game-news-400x400.png" alt="react" width="30" height="30"/> Epic Game News ReactJS <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/>
 
-- Deployed [Still in Progress] [Epic Game News ReactJS](https://laurentiucozma12.github.io/epic-game-news-reactjs/)
+- Deployed [Epic Game News ReactJS](https://laurentiucozma12.github.io/epic-game-news-reactjs/)
 - This will be an attempt at learning ReactJS and recreating the frontend interface of my gaming blog [EpicGameNews.com](https://epicgamenews.com/)
 
 ## To clone the repository you have to open the terminal ( Ctrl + Shift + ` ) and copy paste this command:
